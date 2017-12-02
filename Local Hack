@@ -1,0 +1,16 @@
+#####################################################
+# Program:
+# Date: December 2
+# Description:
+# Authors: Cindy Wang, Javier Chung, Raymond Li
+#####################################################
+
+import pygame
+pygame.init()
+WIDTH = 800
+HEIGHT= 600
+gameWindow=pygame.display.set_mode((WIDTH,HEIGHT))
+
+######################################################
+#background
+gameWindow.fill(WHITE)
